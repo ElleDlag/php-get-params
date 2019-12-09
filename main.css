@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10px;
+}
+a{
+    text-decoration:none
+}
+ul,li{
+    list-style-type:none
+}
+
+form{
+    border:1px solid red;
+    max-width:400px;
+    padding:30px;
+    margin: auto;
+    border-radius: 10px;
+}
+form label,
+form input{
+    font-size: 1.6rem;
+}
+form label{
+    text-transform: uppercase;
+    display: block;;
+    padding:10px;
+    padding-left: 0;
+    ;
+}
+form button{
+    margin-top: 30px;
+    padding:10px;
+    text-align: left;
+    float: right;;
+}
+form:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+p.result{
+   
+    max-width:400px;
+    padding:20px;
+    font-size: 2rem;
+    margin:auto;
+    text-align :center;
+    line-height: 2.6rem;
+}
+p .alt{
+    font-size: 1.3rem;
+}
+.wrong{
+    color:red
+}
+.correct{
+    color:green
+}
